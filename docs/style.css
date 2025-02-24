@@ -1,0 +1,39 @@
+
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: small;
+    color: black;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+div{
+    font-family: Arial, sans-serif;
+    font-size: larger;
+    font-weight: 600;
+}
+.video-container{
+    position: relative;
+    padding-bottom: 50%;
+    height: 0;
+    overflow: hidden;
+}
+.video-container iframe{
+    position: absolute;
+    top: 74px;
+    left: 0;
+    width: 50%;
+    height: 50%;
+}
+
+
+.write{
+    margin-top: -240px;
+}
